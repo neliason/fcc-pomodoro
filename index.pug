@@ -1,0 +1,39 @@
+.container-fluid
+  h1#title.text-center
+    | Pomodoro
+  .row#timer-lengths.text-center
+    .col-xs-6
+      .row
+        .col-xs-12
+          | Break Length
+      .row
+        .col-xs-5#break-add-col
+          button#break-add.timer-btn.pull-right
+            i.fa.fa-plus
+        .col-xs-2
+          #break-length
+            | 5
+        .col-xs-5
+          button#break-subtract.timer-btn.pull-left
+            i.fa.fa-minus
+    .col-xs-6
+      .row
+        .col-xs-12
+          | Session Length
+      .row
+        .col-xs-5#session-add-col
+          button#session-add.timer-btn.pull-right
+            i.fa.fa-plus
+        .col-xs-2
+          #session-length
+            | 25
+        .col-xs-5
+          button#session-subtract.timer-btn.pull-left
+            i.fa.fa-minus
+  .row.text-center
+    .col-xs-12
+      button#timer
+        #timer-text
+          | Session
+        #timer-time
+          | 25:00

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FreeCodeCamp Pomodoro</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Indie+Flower|Kranky|Permanent+Marker'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<div class="container-fluid">
+  <h1 class="text-center" id="title">Pomodoro</h1>
+  <div class="row text-center" id="timer-lengths">
+    <div class="col-xs-6">
+      <div class="row">
+        <div class="col-xs-12">Break Length</div>
+      </div>
+      <div class="row">
+        <div class="col-xs-5" id="break-add-col">
+          <button class="timer-btn pull-right" id="break-add"><i class="fa fa-plus"></i></button>
+        </div>
+        <div class="col-xs-2">
+          <div id="break-length">5</div>
+        </div>
+        <div class="col-xs-5">
+          <button class="timer-btn pull-left" id="break-subtract"><i class="fa fa-minus"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <div class="row">
+        <div class="col-xs-12">Session Length</div>
+      </div>
+      <div class="row">
+        <div class="col-xs-5" id="session-add-col">
+          <button class="timer-btn pull-right" id="session-add"><i class="fa fa-plus"></i></button>
+        </div>
+        <div class="col-xs-2">
+          <div id="session-length">25</div>
+        </div>
+        <div class="col-xs-5">
+          <button class="timer-btn pull-left" id="session-subtract"><i class="fa fa-minus"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-xs-12">
+      <button id="timer">
+        <div id="timer-text">Session</div>
+        <div id="timer-time">25:00</div>
+      </button>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
