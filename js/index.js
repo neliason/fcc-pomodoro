@@ -94,7 +94,7 @@ function startTimer(duration, display) {
       }
       isSession = !isSession;
     }
-  }, 10);
+  }, 1000);
 }
 
 function disableSessionLengthButtons() {
